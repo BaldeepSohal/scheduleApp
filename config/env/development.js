@@ -16,7 +16,7 @@ module.exports = {
   },
   facebook: {
     clientID: '1019070358143304',
-    clientSecret: 'c855ce8fe03f2cbfc3fe6e8fb9c6cd55',
+    clientSecret: '',
     callbackURL: 'http://localhost:3000/auth/facebook/callback'
   },
   twitter: {
@@ -31,7 +31,7 @@ module.exports = {
   },
   google: {
     clientID: '683393592741-do3popk94jkb31rn4bpad8ubfs8f5obu.apps.googleusercontent.com',
-    clientSecret: 'rirWHb5nu-ESGShUBfew5imI',
+    clientSecret: '',
     callbackURL: 'http://localhost:3000/auth/google/callback'
   },
   linkedin: {
@@ -43,8 +43,8 @@ module.exports = {
   mailer: {
     service: 'gmail', // Gmail, SMTP
     auth: {
-      user: 'baldeeptechies@gmail.com',
-      pass: 'baldeep121#'
+      user: '',
+      pass: ''
     }
   }
 };
